@@ -1,5 +1,7 @@
+import { EditorProvider } from './context/context';
+
 function App() {
-  return <div></div>;
+  return <EditorProvider></EditorProvider>;
 }
 
 export default App;
